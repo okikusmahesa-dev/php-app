@@ -9,3 +9,4 @@ RUN a2enmod rewrite
 # Copy index.php (optional, because volume already mounted)
 COPY index.php /var/www/html/
 
+COPY .htaccess /var/www/html/
